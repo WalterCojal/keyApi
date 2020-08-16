@@ -19,6 +19,10 @@ class VerifyToken
         $token = $request->header('Authorization');
         Log::info($token);
 
-        return $next($request);
+        if (strcmp($token, env('API_TOKEN', '')) === 0) {
+            return $next($request);
+        } else {
+            abort(401, 'Unauthorized');
+        }
     }
 }
