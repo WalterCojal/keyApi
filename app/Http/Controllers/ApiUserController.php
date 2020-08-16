@@ -10,9 +10,7 @@ use App\Model\User;
 class ApiUserController extends Controller
 {
     
-    public function getUserList(Request $request) {
-        $token = $request->header('Authorization');
-        Log::info($token);
+    public function getUserList() {
         
         $userList = DB::table('user')
             ->get();

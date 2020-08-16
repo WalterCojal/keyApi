@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Http\Middleware\VerifyToken;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +19,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('getUserList', 'ApiUserController@getUserList');
+Route::middleware([VerifyToken::class])->group( function () {
+    Route::get('getUserList', 'ApiUserController@getUserList');
+});
