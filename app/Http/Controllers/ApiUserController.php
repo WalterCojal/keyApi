@@ -11,8 +11,8 @@ class ApiUserController extends Controller
 {
     
     public function getUserList() {
-        
         $userList = DB::table('user')
+            ->select(DB::raw('id, name, icon, status'))
             ->get();
 
         $result = array(
@@ -22,7 +22,37 @@ class ApiUserController extends Controller
         );
 
         return $result;
+    }
 
+    public function getMediaList($type, $userId) {
+        if ($type == 0) {
+            $error = array(
+                'messageId' => 1,
+                'message'   => 'Tipo de archivo incorrecto'
+            );
+
+            $result = array(
+                'success' => false,
+                'error' => $error,
+                'data'  => null
+            );
+
+            return $result;
+        }
+
+        $gifList = DB::table('media')
+            ->where('user_id', $userId)
+            ->where('status', 1)
+            ->where('type', $type)
+            ->select(DB::raw('id, source'));
+
+        $result = array(
+            'success' => true,
+            'error' => null,
+            'data'  => $userList
+        );
+
+        return $result;
     }
 
 }
