@@ -49,7 +49,7 @@ class ApiUserController extends Controller
         $result = array(
             'success' => true,
             'error' => null,
-            'data'  => $userList
+            'data'  => $gifList
         );
 
         return $result;
