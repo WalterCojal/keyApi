@@ -44,7 +44,8 @@ class ApiUserController extends Controller
             ->where('user_id', $userId)
             ->where('status', 1)
             ->where('type', $type)
-            ->select(DB::raw('id, source'));
+            ->select(DB::raw('id, source'))
+            ->get();
 
         $result = array(
             'success' => true,
