@@ -44,7 +44,9 @@ VALUES
 	(1, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_1.gif', 1, now(), now()),
 	(2, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_2.gif', 1, now(), now()),
 	(3, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_3.gif', 1, now(), now()),
-	(4, 4, 2, 'https://walter.conceptomercado.com/public/videos/video_ale.mp4', 1, now(), now());
+	(4, 4, 2, 'https://walter.conceptomercado.com/public/videos/video_ale.mp4', 1, now(), now()),
+	(5, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_4.gif', 1, now(), now()),
+	(6, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_5.gif', 1, now(), now());
 
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
