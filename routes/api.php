@@ -22,4 +22,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::middleware([VerifyToken::class])->group( function () {
     Route::get('getUserList', 'ApiUserController@getUserList');
     Route::get('getMediaList/{type}/{userId}', 'ApiUserController@getMediaList');
+    Route::get('getUserMedia/{userId}', 'ApiUserController@getUserMedia');
 });

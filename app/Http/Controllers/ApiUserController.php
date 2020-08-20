@@ -56,4 +56,20 @@ class ApiUserController extends Controller
         return $result;
     }
 
+    public function getUserMedia($userId) {
+        $list = DB::table('media')
+            ->where('user_id', $userId)
+            ->where('status', 1)
+            ->select(DB::raw('id, source, type'))
+            ->get();
+
+        $result = array(
+            'success' => true,
+            'error' => null,
+            'data'  => $list
+        );
+
+        return $result;
+    }
+
 }
