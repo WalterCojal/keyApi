@@ -51,7 +51,7 @@ VALUES
   (7, 1, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
   (8, 2, 2, 'https://walter.conceptomercado.com/public/videos/video_rocio.mp4', 1, now(), now()),
   (9, 3, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
-  (10, 5, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
+  (10, 5, 2, 'https://walter.conceptomercado.com/public/videos/video_cuba.mp4', 1, now(), now()),
   (11, 6, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
   (12, 7, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
   (13, 8, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),

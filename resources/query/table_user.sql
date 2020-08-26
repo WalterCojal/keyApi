@@ -44,7 +44,7 @@ VALUES
 	(2, 'Rocio', 'https://walter.conceptomercado.com/public/images/icon_rocio.jpg', 1, now(), now()),
 	(3, 'Anita', 'url', 1, now(), now()),
 	(4, 'Ale', 'https://walter.conceptomercado.com/public/images/icon_ale.jpg', 1, now(), now()),
-	(5, 'Cubita', 'url', 1, now(), now()),
+	(5, 'Cubita', 'https://walter.conceptomercado.com/public/images/icon_cuba.jpg', 1, now(), now()),
 	(6, 'Beatriz', 'url', 1, now(), now()),
 	(7, 'Lucero', 'url', 1, now(), now()),
 	(8, 'Andrea', 'url', 1, now(), now()),
