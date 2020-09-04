@@ -40,17 +40,17 @@ LOCK TABLES `user` WRITE;
 
 INSERT INTO `user` (`id`, `name`, `icon`, `status`, `created_at`, `updated_at`)
 VALUES
-	(1, 'Walter', 'url', 1, now(), now()),
-	(2, 'Rocio', 'https://walter.conceptomercado.com/public/images/icon_rocio.jpg', 1, now(), now()),
-	(3, 'Anita', 'url', 1, now(), now()),
-	(4, 'Ale', 'https://walter.conceptomercado.com/public/images/icon_ale.jpg', 1, now(), now()),
-	(5, 'Cubita', 'https://walter.conceptomercado.com/public/images/icon_cuba.jpg', 1, now(), now()),
-	(6, 'Beatriz', 'url', 1, now(), now()),
-	(7, 'Lucero', 'url', 1, now(), now()),
-	(8, 'Andrea', 'url', 1, now(), now()),
-	(9, 'Maylen', 'url', 1, now(), now()),
-	(10, 'Musa', 'url', 1, now(), now()),
-	(11, 'Gonza', 'url', 1, now(), now());
+	(1, 'Rocio', 'https://walter.conceptomercado.com/public/images/icon_rocio.jpg', 1, now(), now()),
+	(2, 'Anita', 'https://walter.conceptomercado.com/public/images/icon_anita.jpeg', 1, now(), now()),
+	(3, 'Ale', 'https://walter.conceptomercado.com/public/images/icon_ale.jpg', 1, now(), now()),
+	(4, 'Cubita', 'https://walter.conceptomercado.com/public/images/icon_cuba.jpg', 1, now(), now()),
+	(5, 'Beatriz', 'https://walter.conceptomercado.com/public/images/icon_betty.jpg', 1, now(), now()),
+	(6, 'Lucero', 'https://walter.conceptomercado.com/public/images/icon_lucero.jpg', 1, now(), now()),
+	(7, 'Diana', 'https://walter.conceptomercado.com/public/images/icon_andrea.jpg', 1, now(), now()),
+	(8, 'Grecia', 'https://walter.conceptomercado.com/public/images/icon_maylen.jpg', 1, now(), now()),
+	(9, 'Andrea', 'https://walter.conceptomercado.com/public/images/icon_musa.jpg', 1, now(), now()),
+	(10, 'Gonza', 'https://walter.conceptomercado.com/public/images/icon_gonza.jpg', 1, now(), now()),
+	(11, 'Walter', 'https://walter.conceptomercado.com/public/images/icon_walter.jpeg', 1, now(), now());
 
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;

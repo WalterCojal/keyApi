@@ -44,20 +44,20 @@ VALUES
 	(1, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_1.gif', 1, now(), now()),
 	(2, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_2.gif', 1, now(), now()),
 	(3, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_3.gif', 1, now(), now()),
-	(4, 4, 2, 'https://walter.conceptomercado.com/public/videos/video_ale.mp4', 1, now(), now()),
-	(5, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_4.gif', 1, now(), now()),
-	(6, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_5.gif', 1, now(), now()),
+	(4, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_4.gif', 1, now(), now()),
+	(5, 0, 3, 'https://walter.conceptomercado.com/public/gifs/gif_5.gif', 1, now(), now()),
 
-  (7, 1, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
-  (8, 2, 2, 'https://walter.conceptomercado.com/public/videos/video_rocio.mp4', 1, now(), now()),
-  (9, 3, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
-  (10, 5, 2, 'https://walter.conceptomercado.com/public/videos/video_cuba.mp4', 1, now(), now()),
-  (11, 6, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
-  (12, 7, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
-  (13, 8, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
-  (14, 9, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
-  (15, 10, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now()),
-  (16, 11, 2, 'https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4', 1, now(), now());
+	(6, 1, 2, 'https://walter.conceptomercado.com/public/videos/video_rocio.mp4', 1, now(), now()),
+  (7, 2, 2, 'https://walter.conceptomercado.com/public/videos/video_anita.mp4', 1, now(), now()),
+  (8, 3, 2, 'https://walter.conceptomercado.com/public/videos/video_ale.mp4', 1, now(), now()),
+  (9, 4, 2, 'https://walter.conceptomercado.com/public/videos/video_cubita.mp4', 1, now(), now()),
+  (10, 5, 2, 'https://walter.conceptomercado.com/public/videos/video_beatriz.mp4', 1, now(), now()),
+  (11, 6, 2, 'https://walter.conceptomercado.com/public/videos/video_lucero.MOV', 1, now(), now()),
+  (12, 7, 2, 'https://walter.conceptomercado.com/public/videos/video_diana.mp4', 1, now(), now()),
+  (13, 8, 2, 'https://walter.conceptomercado.com/public/videos/video_grecia.mp4', 1, now(), now()),
+  (14, 9, 2, 'https://walter.conceptomercado.com/public/videos/video_andrea.mp4', 1, now(), now()),
+  (15, 10, 2, 'https://walter.conceptomercado.com/public/videos/video_gonza.mp4', 1, now(), now()),
+  (16, 11, 2, 'https://walter.conceptomercado.com/public/videos/video_walter.mp4', 1, now(), now());
 
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
