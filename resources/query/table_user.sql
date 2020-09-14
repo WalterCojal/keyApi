@@ -46,11 +46,12 @@ VALUES
 	(4, 'Cubita', 'https://walter.conceptomercado.com/public/images/icon_cuba.jpg', 1, now(), now()),
 	(5, 'Beatriz', 'https://walter.conceptomercado.com/public/images/icon_betty.jpg', 1, now(), now()),
 	(6, 'Lucero', 'https://walter.conceptomercado.com/public/images/icon_lucero.jpg', 1, now(), now()),
-	(7, 'Diana', 'https://walter.conceptomercado.com/public/images/icon_andrea.jpg', 1, now(), now()),
-	(8, 'Grecia', 'https://walter.conceptomercado.com/public/images/icon_maylen.jpg', 1, now(), now()),
-	(9, 'Andrea', 'https://walter.conceptomercado.com/public/images/icon_musa.jpg', 1, now(), now()),
+	(7, 'Diana', 'https://walter.conceptomercado.com/public/images/icon_diana.jpg', 1, now(), now()),
+	(8, 'Grecia', 'https://walter.conceptomercado.com/public/images/icon_grecia.jpg', 1, now(), now()),
+	(9, 'Andrea', 'https://walter.conceptomercado.com/public/images/icon_andrea.jpg', 1, now(), now()),
 	(10, 'Gonza', 'https://walter.conceptomercado.com/public/images/icon_gonza.jpg', 1, now(), now()),
-	(11, 'Walter', 'https://walter.conceptomercado.com/public/images/icon_walter.jpeg', 1, now(), now());
+	(11, 'Maylen', 'https://walter.conceptomercado.com/public/images/icon_maylen.jpeg', 1, now(), now()),
+	(20, 'Walter', 'https://walter.conceptomercado.com/public/images/icon_walter.jpeg', 1, now(), now());
 
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
