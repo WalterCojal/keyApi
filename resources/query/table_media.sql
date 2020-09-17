@@ -37,7 +37,7 @@ CREATE TABLE `media` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `media` WRITE;
-/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+/*!40000 ALTER TABLE `media` DISABLE KEYS */;
 
 INSERT INTO `media`
 VALUES
@@ -57,10 +57,14 @@ VALUES
   (13, 8, 2, 'https://walter.conceptomercado.com/public/videos/video_grecia.mp4', 1, now(), now()),
   (14, 9, 2, 'https://walter.conceptomercado.com/public/videos/video_andrea.mp4', 1, now(), now()),
   (15, 10, 2, 'https://walter.conceptomercado.com/public/videos/video_gonza.mp4', 1, now(), now()),
-  (15, 11, 2, 'https://walter.conceptomercado.com/public/videos/video_maylen.mp4', 1, now(), now()),
-  (16, 20, 2, 'https://walter.conceptomercado.com/public/videos/video_walter.mp4', 1, now(), now());
+  (16, 11, 2, 'https://walter.conceptomercado.com/public/videos/video_maylen.mp4', 1, now(), now()),
+  (17, 20, 2, 'https://walter.conceptomercado.com/public/videos/video_walter.mp4', 1, now(), now()),
+  (18, 12, 2, 'https://walter.conceptomercado.com/public/videos/video_abel.mp4', 1, now(), now()),
+  (19, 12, 2, 'https://walter.conceptomercado.com/public/videos/video_mafer.mp4', 1, now(), now()),
+  (20, 12, 2, 'https://walter.conceptomercado.com/public/videos/video_santi.mp4', 1, now(), now()),
+  (21, 12, 2, 'https://walter.conceptomercado.com/public/videos/video_pedrito.mp4', 1, now(), now());
 
-/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+/*!40000 ALTER TABLE `media` ENABLE KEYS */;
 UNLOCK TABLES;
 
 

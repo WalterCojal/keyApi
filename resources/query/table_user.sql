@@ -50,8 +50,9 @@ VALUES
 	(8, 'Grecia', 'https://walter.conceptomercado.com/public/images/icon_grecia.jpg', 1, now(), now()),
 	(9, 'Andrea', 'https://walter.conceptomercado.com/public/images/icon_andrea.jpg', 1, now(), now()),
 	(10, 'Gonza', 'https://walter.conceptomercado.com/public/images/icon_gonza.jpg', 1, now(), now()),
-	(11, 'Maylen', 'https://walter.conceptomercado.com/public/images/icon_maylen.jpeg', 1, now(), now()),
-	(20, 'Walter', 'https://walter.conceptomercado.com/public/images/icon_walter.jpeg', 1, now(), now());
+	(11, 'Maylen', 'https://walter.conceptomercado.com/public/images/icon_maylen.jpsg', 1, now(), now()),
+	(20, 'Walter', 'https://walter.conceptomercado.com/public/images/icon_walter.jpeg', 1, now(), now()),
+	(12, 'HSP', 'https://walter.conceptomercado.com/public/images/icon_hsp.jpeg', 1, now(), now());
 
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
