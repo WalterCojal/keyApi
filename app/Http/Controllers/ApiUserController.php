@@ -12,6 +12,7 @@ class ApiUserController extends Controller
     
     public function getUserList() {
         $userList = DB::table('user')
+            ->where('status', 1)
             ->select(DB::raw('id, name, icon, status'))
             ->get();
 
