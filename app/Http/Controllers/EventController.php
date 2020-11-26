@@ -13,7 +13,7 @@ class EventController extends Controller
     function store (Request $request) {
       $event = new Event;
       $event->name = $request->name;
-      $event->desccription = $request->desccription;
+      $event->description = $request->description;
       $event->quantity = $request->quantity;
       $event->status = $request->status;
       $event->save();
@@ -25,7 +25,7 @@ class EventController extends Controller
           $input->setMethod("POST");
           $input->request->add([
             'customer' => 'Sin asignar',
-            'number'  => i+1,
+            'number'  => $i+1,
             'event_id'  => $event->id,
             'status'  => 1
             ]);

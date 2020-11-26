@@ -27,6 +27,7 @@ class CouponController extends Controller
 
     function edit (Request $request) {
       $store = Coupon::find($request->id);
+      $store->customer = $request->customer;
       $store->status = $request->status;
       $store->save();
 
