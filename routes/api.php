@@ -26,6 +26,6 @@ Route::middleware([VerifyToken::class])->group( function () {
     Route::post('storeCoupon', 'CouponController@store');
     Route::post('listCoupon', 'CouponController@list');
     Route::post('editCoupon', 'CouponController@edit');
-    Route::post('storEvent', 'EventController@store');
+    Route::post('storeEvent', 'EventController@store');
     Route::post('listEvent', 'EventController@list');
 });
