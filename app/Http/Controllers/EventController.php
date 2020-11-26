@@ -11,11 +11,16 @@ class EventController extends Controller
 {
 
     function store (Request $request) {
-      $event = Event::create($request->all());
+      $event = new Event;
+      $event->name = $request->name;
+      $event->desccription = $request->desccription;
+      $event->quantity = $request->quantity;
+      $event->status = $request->status;
+      $event->save();
 
       if ($request->quantity > 0) {
         $couponController = new CouponController;
-        for ($i=0; $i < $request->quantity; $i++) { 
+        for ($i=0; $i < $request->quantity; $i++) {
           $input = new Request();
           $input->setMethod("POST");
           $input->request->add([

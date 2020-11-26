@@ -9,7 +9,12 @@ class CouponController extends Controller
 {
 
     function store (Request $request) {
-      $store = Coupon::create($request->all());
+      $store = new Coupon;
+      $store->customer = $request->customer;
+      $store->number = $request->number;
+      $store->event_id = $request->event_id;
+      $store->status = $request->status;
+      $store->save();
 
       $result = array(
           'success' => true,
