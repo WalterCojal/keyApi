@@ -23,4 +23,9 @@ Route::middleware([VerifyToken::class])->group( function () {
     Route::get('getUserList', 'ApiUserController@getUserList');
     Route::get('getMediaList/{type}/{userId}', 'ApiUserController@getMediaList');
     Route::get('getUserMedia/{userId}', 'ApiUserController@getUserMedia');
+    Route::post('storeCoupon', 'CouponController@store');
+    Route::post('listCoupon', 'CouponController@list');
+    Route::post('editCoupon', 'CouponController@edit');
+    Route::post('storEvent', 'EventController@store');
+    Route::post('listEvent', 'EventController@list');
 });
